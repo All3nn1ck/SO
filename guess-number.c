@@ -1,3 +1,5 @@
+/*L'utente ha argv[2] secondi per indovinare un numero compreso tra 0 e argv[1]. Passati quei tre secondi usare alarm(...) e SIGALRM per terminare il gioco*/
+
 #define _GNU_SOURCE
 #include <stdio.h>
 #include <stdlib.h>
