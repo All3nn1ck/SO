@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
 		fprintf(stderr, "Errore %d (%s)\nFile in cui scrivere NON presente: %s\n", errno, strerror(errno), argv[1]);
 		exit(EXIT_FAILURE);
 	}
-
+    fprintf(stdout, "CIAO");
 	numero_figli = atoi(argv[2]);
 	if(numero_figli < 1) {
 		fprintf(stderr, "Il numero di figli da creare non può essere negativo. Inserisci un valore valido. \nCodice errore: %d (%s)\n", errno, strerror(errno));
